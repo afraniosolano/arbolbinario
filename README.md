@@ -4,7 +4,7 @@ arbolbinario
 Pasos para instalar arbolbinario
 ===
 
-1. git clone  arbolbinario
+1. git clone https://github.com/afraniosolano/arbolbinario.git arbolbinario
 2. python3.6 -m venv arbolbinario
 3. cd arbolbinario
 4. source bin/activate
@@ -19,7 +19,7 @@ Pasos para instalar arbolbinario
 sudo apt-get install python3.6
 sudo apt-get install python3.6-venv
 
-1. git clone  arbolbinario
+1. git clone https://github.com/afraniosolano/arbolbinario.git arbolbinario
 2. python3.6 -m venv arbolbinario
 3. cd arbolbinario
 4. source bin/activate
@@ -32,7 +32,7 @@ sudo apt-get install python3.6-venv
 ===
 # Instalación en windows - para desarrolladores
 
-1. git clone  arbolbinario
+1. git clone https://github.com/afraniosolano/arbolbinario.git arbolbinario
 2. python -m venv arbolbinario
 3. cd arbolbinario
 4. scripts\activate
