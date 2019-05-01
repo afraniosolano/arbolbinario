@@ -7,6 +7,8 @@ El proyecto esta ejecutandose en la interfaz swagger que se encuentra en la URL:
 
 http://vps187699.vps.ovh.ca:9224/arbolbinario/v1.0/ui/
 
+Esta interfaz adicionalmente sirve como documentación de uso.
+
 ===
 
 Pasos para instalar arbolbinario
