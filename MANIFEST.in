@@ -1,0 +1,2 @@
+include shelve
+recursive-include rest/swagger *.yml

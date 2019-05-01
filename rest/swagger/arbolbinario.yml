@@ -1,0 +1,94 @@
+swagger: "2.0"
+
+info:
+  title: "arbolbinario"
+  version: "1.0.0a0"
+
+schemes:
+  - http
+  - https
+
+basePath: /arbolbinario/v1.0
+
+consumes:
+  - application/json
+produces:
+  - application/json
+
+paths:
+
+  /arbol:
+    post:
+      operationId: rest.arbol_resource.CLASS_INSTANCE.save_arbol
+      summary: Crear o actualizar el árbol, el input debe ser una cadena de números separados por comas, ejemplo 70,84,85
+      parameters:
+      - in: "body"
+        name: "arbol_parameters"
+        description: "arbol"
+        required: true
+        schema:
+          $ref: "#/definitions/arbol_parameters"
+      responses:
+        400:
+          description: "Parámetros invalidos"
+        401:
+          description: "No autorizado"
+        404:
+          description: "No encontrado"
+        500:
+          description: "error interno del servidor"
+        200:
+          description: "ok"
+          schema:
+            $ref: "#/definitions/arbol_parameters"
+
+    get:
+      operationId: rest.arbol_resource.CLASS_INSTANCE.get_arbol
+      summary: Obtener todo el arbol
+      responses:
+        400:
+          description: "Parámetros inválidos"
+        401:
+          description: "No autorizado"
+        404:
+          description: "No encontrado"
+        500:
+          description: "error interno del servidor"
+        200:
+          description: "ok"
+
+  /ancestor:
+    get:
+      operationId: rest.arbol_resource.CLASS_INSTANCE.get_ancestor
+      summary: Obtener accion por ID
+      parameters:
+        - name: "num_1"
+          description: "Numero 1"
+          in: "query"
+          type: "integer"
+          required: true
+        - name: "num_2"
+          description: "Numero 2"
+          in: "query"
+          type: "integer"
+          required: true
+      responses:
+        400:
+          description: "Parámetros inválidos"
+        401:
+          description: "No autorizado"
+        404:
+          description: "No encontrado"
+        500:
+          description: "error interno del servidor"
+        200:
+          description: "ok"
+
+definitions:
+  arbol_parameters:
+    type: "object"
+    required:
+      - input_arbol
+    properties:
+      input_arbol:
+        type: "string"
