@@ -60,7 +60,7 @@ paths:
   /ancestor:
     get:
       operationId: rest.arbol_resource.CLASS_INSTANCE.get_ancestor
-      summary: Obtener accion por ID
+      summary: Obtener el ancestor de 2 nodos
       parameters:
         - name: "num_1"
           description: "Numero 1"
