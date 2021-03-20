@@ -25,7 +25,7 @@ setup(
         'idna==2.6',
         'inflection==0.3.1',
         'itsdangerous==0.24',
-        'Jinja2==2.10',
+        'Jinja2==2.11.3',
         'jsonpickle==0.9.5',
         'jsonschema==2.6.0',
         'MarkupSafe==1.0',
