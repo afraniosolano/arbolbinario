@@ -29,7 +29,7 @@ setup(
         'jsonpickle==0.9.5',
         'jsonschema==2.6.0',
         'MarkupSafe==1.0',
-        'PyYAML==3.12',
+        'PyYAML==5.4',
         'requests==2.18.4',
         'six==1.11.0',
         'urllib3==1.22',
