@@ -20,7 +20,7 @@ setup(
         'clickclick==1.2.2',
         'connexion==1.2',
         'Flask==0.12.2',
-        'Flask-Cors==3.0.3',
+        'Flask-Cors==3.0.9',
         'py-healthcheck==1.7.0',
         'idna==2.6',
         'inflection==0.3.1',
