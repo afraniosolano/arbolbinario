@@ -32,6 +32,6 @@ setup(
         'PyYAML==3.12',
         'requests==2.18.4',
         'six==1.11.0',
-        'urllib3==1.22',
+        'urllib3==1.26.5',
         'Werkzeug==0.12.2'
     ])
