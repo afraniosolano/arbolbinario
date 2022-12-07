@@ -14,7 +14,7 @@ setup(
         ]
     },
     install_requires=[
-        'certifi==2017.11.5',
+        'certifi==2022.12.7',
         'chardet==3.0.4',
         'Click==6.7',
         'clickclick==1.2.2',
